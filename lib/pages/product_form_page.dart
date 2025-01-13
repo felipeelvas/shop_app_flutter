@@ -4,7 +4,7 @@ import 'package:shop/models/product.dart';
 import 'package:shop/models/product_list.dart';
 
 class ProductFormPage extends StatefulWidget {
-  const ProductFormPage({Key? key}) : super(key: key);
+  const ProductFormPage({super.key});
 
   @override
   State<ProductFormPage> createState() => _ProductFormPageState();
@@ -92,8 +92,8 @@ class _ProductFormPageState extends State<ProductFormPage> {
       await showDialog<void>(
         context: context,
         builder: (ctx) => AlertDialog(
-          title: Text('Ocorreu um erro!'),
-          content: Text('Ocorreu um erro para salvar o produto'),
+          title: const Text('Ocorreu um erro!'),
+          content: const Text('Ocorreu um erro para salvar o produto'),
           actions: [
             TextButton(
               onPressed: () => Navigator.of(context).pop(),

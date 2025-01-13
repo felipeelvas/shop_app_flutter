@@ -26,21 +26,20 @@ class Product with ChangeNotifier {
     notifyListeners();
   }
 
-  Future<void> toogleFavorite() async {
-    try{
-    _toogleFavorite();
-
-    final response = await http.patch(
-      Uri.parse('${Constants.PRODUCT_BASE_URL}/$id.json'),
-      body: jsonEncode({"isFavorite": isFavorite}),
-    );
-
-    if (response.statusCode >= 400) {
+  Future<void> toogleFavorite(String token) async {
+    try {
       _toogleFavorite();
-    }
 
+      final response = await http.patch(
+        Uri.parse('${Constants.PRODUCT_BASE_URL}/$id.json?auth=$token'),
+        body: jsonEncode({"isFavorite": isFavorite}),
+      );
+
+      if (response.statusCode >= 400) {
+        _toogleFavorite();
+      }
     } catch (_) {
-       _toogleFavorite();
+      _toogleFavorite();
     }
   }
 }
