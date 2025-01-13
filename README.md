@@ -50,4 +50,4 @@ Este curso proporcionou uma compreensão sólida dos conceitos mencionados, prep
 
 ##Autor:
 #Felipe Elvas Barbosa
-Curso disponível na plataforma (Udemy) => [https://www.udemy.com/course/curso-flutter/?couponCode=KEEPLEARNINGBR]
+Curso disponível na plataforma ([Udemy](https://www.udemy.com/course/curso-flutter/?couponCode=KEEPLEARNINGBR)) 
