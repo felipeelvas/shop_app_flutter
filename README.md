@@ -48,6 +48,8 @@ Este documento resume os principais tópicos estudados e aprendidos durante o cu
 
 Este curso proporcionou uma compreensão sólida dos conceitos mencionados, preparando para o desenvolvimento de aplicativos Flutter modernos e interativos.
 
-##Autor:
-#Felipe Elvas Barbosa
+## Autor:
+<br>
+# Felipe Elvas Barbosa
+<br>
 Curso disponível na plataforma ([Udemy](https://www.udemy.com/course/curso-flutter/?couponCode=KEEPLEARNINGBR)) 
