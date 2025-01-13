@@ -47,3 +47,7 @@ Este documento resume os principais tópicos estudados e aprendidos durante o cu
 - **Transições de Tela**: Personalização das animações entre telas.
 
 Este curso proporcionou uma compreensão sólida dos conceitos mencionados, preparando para o desenvolvimento de aplicativos Flutter modernos e interativos.
+
+##Autor:
+#Felipe Elvas Barbosa
+Curso disponível na plataforma (Udemy) => [https://www.udemy.com/course/curso-flutter/?couponCode=KEEPLEARNINGBR]
