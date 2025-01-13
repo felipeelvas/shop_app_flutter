@@ -51,8 +51,5 @@ Este curso proporcionou uma compreensão sólida dos conceitos mencionados, prep
 
 ## Autor:
 ### Felipe Elvas Barbosa
-<br>
-Curso de 
-![Flutter Badge](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
-disponível na plataforma 
-![Udemy](https://www.udemy.com/course/curso-flutter/?couponCode=KEEPLEARNINGBR)
+
+Curso de ![Flutter Badge](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white) disponível na plataforma [![Udemy](https://img.shields.io/badge/Udemy-%23000000.svg?style=for-the-badge&logo=Udemy&logoColor=white)](https://www.udemy.com/course/curso-flutter/?couponCode=KEEPLEARNINGBR)
