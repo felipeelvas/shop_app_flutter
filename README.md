@@ -1,5 +1,5 @@
 # shop_app_flutter
-![Flutter Badge](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white){:target="_blank"}
+![Flutter Badge](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
 
 # Resumo do Curso de Flutter
 
@@ -52,5 +52,5 @@ Este curso proporcionou uma compreensão sólida dos conceitos mencionados, prep
 ## Autor:
 ### Felipe Elvas Barbosa
 
-Curso de ![Flutter Badge](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white) disponível na plataforma [![Udemy](https://img.shields.io/badge/Udemy-%23000000.svg?style=for-the-badge&logo=Udemy&logoColor=white)](https://www.udemy.com/course/curso-flutter/?couponCode=KEEPLEARNINGBR){:target="_blank"}
+Curso de ![Flutter Badge](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white) disponível na plataforma [![Udemy](https://img.shields.io/badge/Udemy-%23000000.svg?style=for-the-badge&logo=Udemy&logoColor=white)](https://www.udemy.com/course/curso-flutter/?couponCode=KEEPLEARNINGBR)
 
