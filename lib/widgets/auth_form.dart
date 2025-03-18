@@ -44,7 +44,7 @@ class _AuthFormState extends State<AuthForm>
         curve: Curves.linear,
       ),
     );
-    _heightAnimation.addListener(() => setState(() {}));
+    // _heightAnimation.addListener(() => setState(() {}));
   }
 
   @override
@@ -122,12 +122,14 @@ class _AuthFormState extends State<AuthForm>
       shape: RoundedRectangleBorder(
         borderRadius: BorderRadius.circular(16),
       ),
-      child: Container(
-        // height: _isLogin() ? 310 : 400,
-        height: _heightAnimation?.value.height ?? (_isLogin() ? 310 : 400),
-        width: deviceSize.width * 0.75,
-        padding: const EdgeInsets.all(16),
-        child: Form(
+      child: AnimatedContainer(
+              duration: Duration(milliseconds: 300),
+              curve: Curves.easeIn,
+              height: _isLogin() ? 310 : 400,
+              // height: _heightAnimation?.value.height ?? (_isLogin() ? 310 : 400),
+              width: deviceSize.width * 0.75,
+              padding: const EdgeInsets.all(16),
+              child: Form(
           key: _formKey,
           child: Column(
             mainAxisSize: MainAxisSize.min,
@@ -161,18 +163,18 @@ class _AuthFormState extends State<AuthForm>
               if (_isSignup())
                 TextFormField(
                   decoration:
-                      const InputDecoration(labelText: 'Confirmar Senha'),
+                  const InputDecoration(labelText: 'Confirmar Senha'),
                   keyboardType: TextInputType.visiblePassword,
                   obscureText: true,
                   validator: _isLogin()
                       ? null
                       : (_password) {
-                          final password = _password ?? '';
-                          if (password != _passwordController.text) {
-                            return 'Senhas diferentes';
-                          }
-                          return null;
-                        },
+                    final password = _password ?? '';
+                    if (password != _passwordController.text) {
+                      return 'Senhas diferentes';
+                    }
+                    return null;
+                  },
                 ),
               SizedBox(height: 20),
               if (_isLoading)
@@ -205,34 +207,5 @@ class _AuthFormState extends State<AuthForm>
         ),
       ),
     );
-
-    // Card(
-    //   child: Column(
-    //     children: [
-    //       ElevatedButton.icon(
-    //         onPressed: () async {
-    //           // Lógica para login com Google
-    //         },
-    //         icon: const Icon(Icons.g_mobiledata),
-    //         label: const Text('Login com Google'),
-    //         style: ElevatedButton.styleFrom(
-    //           backgroundColor: Colors.white,
-    //           foregroundColor: Colors.black,
-    //         ),
-    //       ),
-    //       ElevatedButton.icon(
-    //         onPressed: () async {
-    //           // Lógica para login com Apple
-    //         },
-    //         icon: const Icon(Icons.apple),
-    //         label: const Text('Login com Apple'),
-    //         style: ElevatedButton.styleFrom(
-    //           backgroundColor: Colors.black,
-    //           foregroundColor: Colors.white,
-    //         ),
-    //       ),
-    //     ],
-    //   ),
-    // );
   }
 }
