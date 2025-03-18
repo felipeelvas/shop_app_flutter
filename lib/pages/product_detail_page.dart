@@ -10,18 +10,15 @@ class ProductDetailPage extends StatelessWidget {
         ModalRoute.of(context)!.settings.arguments as Product;
     return Scaffold(
       backgroundColor: Colors.amber.shade50,
-      appBar: AppBar(
-        backgroundColor: Colors.amber,
-        title: Center(child: Text(product.name)),
-        // titleTextStyle: const TextStyle(color: Colors.white),
-      ),
-      body: SingleChildScrollView(
-        child: Column(
-          children: [
-            SizedBox(
-              height: 300,
-              width: double.infinity,
-              child: Hero(
+      body: CustomScrollView(
+        slivers: [
+          SliverAppBar(
+            backgroundColor: Colors.amber,
+            expandedHeight: 300,
+            pinned: true,
+            flexibleSpace: FlexibleSpaceBar(
+              title: Text(product.name),
+              background: Hero(
                 tag: product.id,
                 child: Image.network(
                   product.imageUrl,
@@ -29,25 +26,33 @@ class ProductDetailPage extends StatelessWidget {
                 ),
               ),
             ),
-            const SizedBox(height: 10),
-            Text(
-              'R\$ ${product.price}',
-              style: const TextStyle(
-                color: Colors.grey,
-                fontSize: 20,
-              ),
-            ),
-            const SizedBox(height: 10),
-            Container(
-              padding: const EdgeInsets.symmetric(horizontal: 10),
-              width: double.infinity,
-              child: Text(
-                product.description,
+          ),
+          SliverList(
+            delegate: SliverChildListDelegate(
+                [
+              const SizedBox(height: 10),
+              Text(
+                'R\$ ${product.price}',
                 textAlign: TextAlign.center,
+                style: const TextStyle(
+                  color: Colors.grey,
+                  fontSize: 20,
+                ),
               ),
-            )
-          ],
-        ),
+              const SizedBox(height: 10),
+              Container(
+                padding: const EdgeInsets.symmetric(horizontal: 10),
+                width: double.infinity,
+                child: Text(
+                  product.description,
+                  textAlign: TextAlign.center,
+                ),
+              ),
+              const SizedBox(height: 1000),
+              const Text("Fim", textAlign: TextAlign.center,),
+            ]),
+          ),
+       ],
       ),
     );
   }
