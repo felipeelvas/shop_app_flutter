@@ -1,0 +1,148 @@
+{
+  "orders": {
+    "BdEF0mw2u5OUcXBX26OONaLu3lS2": {
+      "-OH2ng_fRgGsKw7TJYmx": {
+        "date": "2025-01-20T10:02:34.726",
+        "products": [
+          {
+            "id": "0.26360639972176747",
+            "name": "Lord Voldemort Boneco",
+            "price": 199.99,
+            "productId": "-OG4raNIDMU2Ibp8n_8W",
+            "quantity": 1
+          },
+          {
+            "id": "0.33794866160277626",
+            "name": "Hermione Granger boneca",
+            "price": 89.99,
+            "productId": "-OG4qpwNNHtmsGqH7z1R",
+            "quantity": 1
+          },
+          {
+            "id": "0.8232853580106481",
+            "name": "Ron Weasly Boneco",
+            "price": 89.99,
+            "productId": "-OG4rE-4YtxS5sZTADVy",
+            "quantity": 1
+          },
+          {
+            "id": "0.44249787128920026",
+            "name": "Harry Potter Boneco",
+            "price": 89.99,
+            "productId": "-OG4q_ifN8wnwH29wjOT",
+            "quantity": 1
+          }
+        ],
+        "total": 469.96000000000004
+      },
+      "-OH2o0oXWE8w-FHReQA2": {
+        "date": "2025-01-20T10:04:01.721",
+        "products": [
+          {
+            "id": "0.31042289567054504",
+            "name": "Bola",
+            "price": 59.9,
+            "productId": "-OG2QsYibOCEyXDlHxW5",
+            "quantity": 1
+          },
+          {
+            "id": "0.25289236602980947",
+            "name": "Woody Boneco",
+            "price": 59.99,
+            "productId": "-OG4q1480VarEXlD0N1k",
+            "quantity": 1
+          }
+        ],
+        "total": 119.89
+      }
+    },
+    "nEcSN41sFMZ5G4xI9GGXLITzn1u2": {
+      "-OH2p4kp2JfOZqAX8Pm4": {
+        "date": "2025-01-20T10:08:40.003",
+        "products": [
+          {
+            "id": "0.6046785689178891",
+            "name": "Noiva de Chucky Killer",
+            "price": 250,
+            "productId": "-OG4pgYIBf2cdp0ft5xG",
+            "quantity": 1
+          },
+          {
+            "id": "0.5928466693738237",
+            "name": "Noiva de Chucky Boneca",
+            "price": 333,
+            "productId": "-OG4pG6IUNtPOleERxrF",
+            "quantity": 1
+          },
+          {
+            "id": "0.804754683628258",
+            "name": "Chucky Boneco",
+            "price": 333,
+            "productId": "-OG4ozUZgwNImClEZDZV",
+            "quantity": 1
+          }
+        ],
+        "total": 916
+      }
+    }
+  },
+  "products": {
+    "-OG2QsYibOCEyXDlHxW5": {
+      "description": "Bola de futebol profissional",
+      "imageUrl": "https://cdn.pixabay.com/photo/2013/07/13/10/51/football-157930_960_720.png",
+      "isFavorite": false,
+      "name": "Bola",
+      "price": 59.9
+    },
+    "-OG4q1480VarEXlD0N1k": {
+      "description": "Boneco toy store",
+      "imageUrl": "https://www.pngall.com/wp-content/uploads/5/Sheriff-Woody-PNG-Free-Image.png",
+      "isFavorite": false,
+      "name": "Woody Boneco",
+      "price": 59.99
+    },
+    "-OG4q_ifN8wnwH29wjOT": {
+      "description": "Harry Potter Boneco feitico",
+      "imageUrl": "https://i5.walmartimages.com/seo/Funko-POP-Harry-Potter-Harry-Potter-18-Harry-Potter_55b9d454-d0c4-42aa-bb1e-046168446de9_1.a249fb959e9dbbaf15474624718f22e9.png",
+      "isFavorite": true,
+      "name": "Harry Potter Boneco",
+      "price": 89.99
+    },
+    "-OG4qpwNNHtmsGqH7z1R": {
+      "description": "Hermione Granger boneca feitico",
+      "imageUrl": "https://www.pikpng.com/pngl/b/152-1522084_sorting-hat-png.png",
+      "isFavorite": true,
+      "name": "Hermione Granger boneca",
+      "price": 89.99
+    },
+    "-OG4rE-4YtxS5sZTADVy": {
+      "description": "Ron Weasly Boneco feitico",
+      "imageUrl": "https://www.panupli.es/7280-large_default/funko-pop-harry-potter-ron-lazo-del-diablo.jpg",
+      "isFavorite": false,
+      "name": "Ron Weasly Boneco",
+      "price": 89.99
+    },
+    "-OG4raNIDMU2Ibp8n_8W": {
+      "description": "Lord  Voldemort Boneco",
+      "imageUrl": "https://i5.walmartimages.com/asr/a361e0d2-ce87-4a5a-afb0-621b9615673c_2.9ed509910a0430d683070c8209c5b1d1.png",
+      "isFavorite": true,
+      "name": "Lord Voldemort Boneco",
+      "price": 199.99
+    }
+  },
+  "userFavorites": {
+    "BdEF0mw2u5OUcXBX26OONaLu3lS2": {
+      "-OG4ozUZgwNImClEZDZV": false,
+      "-OG4pG6IUNtPOleERxrF": false,
+      "-OG4q_ifN8wnwH29wjOT": true,
+      "-OG4qpwNNHtmsGqH7z1R": true,
+      "-OG4rE-4YtxS5sZTADVy": true,
+      "-OG4raNIDMU2Ibp8n_8W": true
+    },
+    "nEcSN41sFMZ5G4xI9GGXLITzn1u2": {
+      "-OG4ozUZgwNImClEZDZV": true,
+      "-OG4q1480VarEXlD0N1k": true,
+      "-OG4rE-4YtxS5sZTADVy": true
+    }
+  }
+}
