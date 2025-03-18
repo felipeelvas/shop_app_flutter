@@ -11,6 +11,7 @@ import 'package:shop/pages/product_detail_page.dart';
 import 'package:shop/pages/product_form_page.dart';
 import 'package:shop/pages/products_page.dart';
 import 'package:shop/utils/app_routes.dart';
+import 'package:shop/utils/custom_route.dart';
 
 void main() {
   runApp(const MyApp());
@@ -63,6 +64,13 @@ class MyApp extends StatelessWidget {
             onError: Colors.red,
           ),
           fontFamily: 'Lato',
+          pageTransitionsTheme: PageTransitionsTheme(
+            builders: {
+              TargetPlatform.android: CustomPageTransitionBuilder(),
+              TargetPlatform.iOS: CustomPageTransitionBuilder(),
+            },
+          ),
+
           textTheme: ThemeData().textTheme.copyWith(
             titleLarge: const TextStyle(
               fontSize: 20,

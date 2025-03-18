@@ -3,6 +3,9 @@ import 'package:provider/provider.dart';
 import 'package:shop/models/auth.dart';
 import 'package:shop/utils/app_routes.dart';
 
+import '../pages/orders_page.dart';
+import '../utils/custom_route.dart';
+
 class AppDrawer extends StatelessWidget {
   const AppDrawer({super.key});
 
@@ -39,6 +42,11 @@ class AppDrawer extends StatelessWidget {
               Navigator.of(context).pushReplacementNamed(
                 AppRoutes.orders,
               );
+              // Navigator.of(context).pushReplacement(
+              //   CustomRoute(
+              //     builder: (ctx) => const OrdersPage(),
+              //   ),
+              // );
             },
           ),
           const Divider(),
