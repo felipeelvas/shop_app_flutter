@@ -63,6 +63,14 @@ class MyApp extends StatelessWidget {
             onError: Colors.red,
           ),
           fontFamily: 'Lato',
+          textTheme: ThemeData().textTheme.copyWith(
+            titleLarge: const TextStyle(
+              fontSize: 20,
+              fontFamily: 'Anton',
+              color: Colors.white,
+            ),
+
+        ),
         ),
         routes: {
           AppRoutes.auth_or_home: (ctx) => const AuthOrHomePage(),
